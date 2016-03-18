@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Search">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="226.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New York Apartments for Rent" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Separator layoutX="25.0" layoutY="40.0" prefWidth="700.0" />
+      <Separator layoutX="25.0" layoutY="180.0" prefWidth="700.0" />
+      <Separator layoutX="25.0" layoutY="320.0" prefWidth="700.0" />
+      <Separator layoutX="25.0" layoutY="460.0" prefWidth="700.0" />
+      <Separator layoutX="25.0" layoutY="600.0" prefWidth="700.0" />
+      <Separator layoutX="25.0" layoutY="715.0" prefWidth="700.0" />
+      <ImageView fx:id="Image1" fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Tom_Brady_Gisele_New_York_Apartment_Rental_Pictures.png" />
+         </image></ImageView>
+      <ImageView fx:id="Image2" fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Documents/download.jpeg" />
+         </image></ImageView>
+      <ImageView fx:id="Image3" fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Documents/new-york-apartment-1.jpeg" />
+         </image></ImageView>
+      <ImageView fx:id="Image4" fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Documents/1-bedroom-apartments-nyc-inside-luxury-apartments-nyc-new-home-new-york-luxury-apartments-at.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="Image5" fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="610.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Clock-Tower-Apartment-neutral-sitting-area-with-views-to-New-York-City-and-statement-soft-furnishings.jpg" />
+         </image></ImageView>
+      <Text fx:id="Location1" layoutX="130.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Location2" layoutX="130.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Location3" layoutX="130.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Location4" layoutX="130.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Location5" layoutX="130.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="130.0" layoutY="65.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="205.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="345.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="485.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="625.0" prefWidth="200.0" />
+      <Text fx:id="Price1" layoutX="131.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="130.0" layoutY="85.0" prefWidth="200.0" />
+      <Text fx:id="Beds1" layoutX="130.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beds">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="200.0" layoutY="85.0" orientation="VERTICAL" prefHeight="35.0" prefWidth="5.0" />
+      <Text fx:id="Bath1" layoutX="205.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="235.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Baths">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="130.0" layoutY="120.0" prefWidth="200.0" />
+      <Text layoutX="130.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listed By:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price2" layoutX="130.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Lister1" layoutX="200.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Beds2" layoutX="130.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="130.0" layoutY="225.0" prefWidth="200.0" />
+      <Text layoutX="160.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beds">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="200.0" layoutY="225.0" orientation="VERTICAL" prefHeight="35.0" prefWidth="5.0" />
+      <Text fx:id="Bath2" layoutX="205.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="235.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Baths">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="130.0" layoutY="260.0" prefWidth="200.0" />
+      <Text layoutX="130.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listed By:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Lister2" layoutX="200.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price3" layoutX="130.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price4" layoutX="130.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price5" layoutX="130.0" layoutY="640.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="130.0" layoutY="365.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="400.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="505.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="540.0" prefWidth="200.0" />
+      <Separator layoutX="126.0" layoutY="645.0" prefWidth="200.0" />
+      <Separator layoutX="130.0" layoutY="680.0" prefWidth="200.0" />
+      <Separator layoutX="200.0" layoutY="365.0" orientation="VERTICAL" prefHeight="35.0" prefWidth="5.0" />
+      <Separator layoutX="200.0" layoutY="505.0" orientation="VERTICAL" prefHeight="35.0" prefWidth="5.0" />
+      <Separator layoutX="200.0" layoutY="645.0" orientation="VERTICAL" prefHeight="35.0" prefWidth="5.0" />
+      <Text fx:id="Beds3" layoutX="130.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Bath3" layoutX="205.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beds">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="235.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Baths">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listed By:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Lister3" layoutX="200.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Beds4" layoutX="130.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Bath4" layoutX="205.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Beds5" layoutX="130.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Bath5" layoutX="205.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beds">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beds">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="235.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Baths">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="235.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Baths">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listed By:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="700.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listed By:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Lister4" layoutX="200.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Lister5" layoutX="200.0" layoutY="700.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="Next" layoutX="410.0" layoutY="717.0" mnemonicParsing="false" style="-fx-background-color: White; -fx-border-color: #4d93ff;" text="Next" />
+      <Text layoutX="363.0" layoutY="735.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="Next1" layoutX="300.0" layoutY="717.0" mnemonicParsing="false" style="-fx-background-color: White; -fx-border-color: #4d93ff;" text="Prev" />
+      <Button fx:id="Rent1" layoutX="475.0" layoutY="120.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: White; -fx-border-color: #4d93ff;" text="Rent this Apartment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Rent11" layoutX="475.0" layoutY="260.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: White; -fx-border-color: #4d93ff;" text="Rent this Apartment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Rent111" layoutX="475.0" layoutY="400.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: White; -fx-border-color: #4d93ff;" text="Rent this Apartment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Rent1111" layoutX="475.0" layoutY="540.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: White; -fx-border-color: #4d93ff;" text="Rent this Apartment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Rent11111" layoutX="475.0" layoutY="660.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: White; -fx-border-color: #4d93ff;" text="Rent this Apartment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

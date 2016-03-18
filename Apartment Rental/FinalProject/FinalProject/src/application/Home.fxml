@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Home">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="224.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New York Apartments for Rent" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="SearchButton" layoutX="478.0" layoutY="353.0" mnemonicParsing="false" onAction="#Search" prefHeight="72.0" prefWidth="134.0" style="-fx-background-color: #4d93ff;" text="Search" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="20.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Location" layoutX="20.0" layoutY="105.0" prefHeight="29.0" prefWidth="380.0" promptText="Enter a City or leave blank for all available apartments" style="-fx-border-color: #4d93ff;" />
+      <Text layoutX="20.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+      <Text layoutX="100.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To" />
+      <Text layoutX="300.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bedrooms" />
+      <Text layoutX="300.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bathrooms" />
+      <TextField fx:id="PriceMin" layoutX="20.0" layoutY="190.0" prefHeight="25.0" prefWidth="200.0" promptText="Minimum" style="-fx-border-color: #4d93ff;" />
+      <TextField fx:id="PriceMax" layoutX="20.0" layoutY="275.0" prefHeight="25.0" prefWidth="200.0" promptText="Maximum" style="-fx-border-color: #4d93ff;" />
+      <TextField fx:id="BedMin" layoutX="300.0" layoutY="190.0" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #4d93ff;" />
+      <TextField fx:id="BathMin" layoutX="300.0" layoutY="275.0" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #4d93ff;" />
+      <Button fx:id="LogOutButton" layoutX="670.0" layoutY="10.0" mnemonicParsing="false" onAction="#LogOut" style="-fx-background-color: white; -fx-border-color: #4d93ff;" text="Log Out">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#reset" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogIn">
+   <children>
+      <Separator layoutX="296.0" layoutY="38.0" orientation="VERTICAL" prefHeight="363.0" prefWidth="17.0" />
+      <Text layoutX="116.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New User:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="356.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Returning User:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="FirstName" layoutX="120.0" layoutY="90.0" />
+      <Text layoutX="14.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="SecondName" layoutX="120.0" layoutY="150.0" />
+      <Text layoutX="14.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Email" layoutX="120.0" layoutY="210.0" onMouseClicked="#reset" />
+      <Text layoutX="14.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Phone" layoutX="120.0" layoutY="270.0" />
+      <Text layoutX="338.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="SignUpButton" layoutX="170.0" layoutY="362.0" mnemonicParsing="false" onAction="#SignUp" text="Sign Up" />
+      <TextField fx:id="Username" layoutX="339.0" layoutY="130.0" onMouseClicked="#reset" prefHeight="27.0" prefWidth="250.0" />
+      <Text layoutX="340.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="LogInButton" layoutX="450.0" layoutY="275.0" mnemonicParsing="false" onAction="#LogInClick" text="Log in" />
+      <Text layoutX="191.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apartment Rental Manager">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#c90c0c" layoutX="314.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incorrect Username or Password" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <PasswordField fx:id="Password" layoutX="339.0" layoutY="222.0" onMouseClicked="#reset" prefHeight="27.0" prefWidth="250.0" />
+      <PasswordField fx:id="newPassword" layoutX="120.0" layoutY="321.0" />
+   </children>
+</AnchorPane>
